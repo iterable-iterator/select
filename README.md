@@ -4,12 +4,19 @@
 Iterable item selection for JavaScript.
 See [docs](https://iterable-iterator.github.io/select/index.html).
 
-> :building_construction: Caveat emptor! This is work in progress. Code may be
-> working. Documentation may be present. Coherence may be. Maybe.
-
 > :warning: Depending on your environment, the code may require
 > `regeneratorRuntime` to be defined, for instance by importing
 > [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
+
+```js
+import {first, last, nth} from '@iterable-iterator/select';
+import {range} from '@iterable-iterator/range';
+first(range(10)); // 0
+last(range(10)); // 9
+nth(range(10), 0); // 0
+nth(range(10), -1); // 9
+nth(range(10), -3); // 7
+```
 
 [![License](https://img.shields.io/github/license/iterable-iterator/select.svg)](https://raw.githubusercontent.com/iterable-iterator/select/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@iterable-iterator/select.svg)](https://www.npmjs.org/package/@iterable-iterator/select)
