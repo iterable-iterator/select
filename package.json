@@ -64,7 +64,7 @@
     "@data-structure/deque": "^9.0.0",
     "@iterable-iterator/iter": "^0.0.2",
     "@iterable-iterator/next": "^1.0.0",
-    "@iterable-iterator/slice": "^0.0.1"
+    "@iterable-iterator/slice": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.14.6",
