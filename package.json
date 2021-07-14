@@ -63,7 +63,7 @@
   "dependencies": {
     "@data-structure/deque": "^9.0.0",
     "@iterable-iterator/iter": "^0.0.2",
-    "@iterable-iterator/next": "^1.0.0",
+    "@iterable-iterator/next": "^2.0.0",
     "@iterable-iterator/slice": "^0.0.1"
   },
   "devDependencies": {
