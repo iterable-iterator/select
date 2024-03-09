@@ -1,5 +1,5 @@
-import {next} from '@iterable-iterator/next';
 import {iter} from '@iterable-iterator/iter';
+import {next} from '@iterable-iterator/next';
 
 /**
  * Returns the first value of the input iterable. If the iterable is

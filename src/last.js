@@ -1,5 +1,5 @@
-import {_tail} from '@iterable-iterator/slice';
 import {next} from '@iterable-iterator/next';
+import {_tail} from '@iterable-iterator/slice';
 
 /**
  * Returns the last value of the input iterable. If the iterable is

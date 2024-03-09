@@ -1,7 +1,6 @@
 import {deque} from '@data-structure/deque';
-
-import {drop} from '@iterable-iterator/slice';
 import {next, StopIteration} from '@iterable-iterator/next';
+import {drop} from '@iterable-iterator/slice';
 
 /**
  * Returns the <code>n</code>th value of the input iterable (<code>n</code>
