@@ -3,7 +3,7 @@ import test from 'ava';
 import {range} from '@iterable-iterator/range';
 import {iter} from '@iterable-iterator/iter';
 import {StopIteration} from '@iterable-iterator/next';
-import {nth} from '../../src/index.js';
+import {nth} from '#module';
 
 const macro = (t, iterable, n, expected) => {
 	t.is(expected, nth(iterable, n));

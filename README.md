@@ -20,7 +20,7 @@ nth(range(10), -3); // 7
 
 [![License](https://img.shields.io/github/license/iterable-iterator/select.svg)](https://raw.githubusercontent.com/iterable-iterator/select/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@iterable-iterator/select.svg)](https://www.npmjs.org/package/@iterable-iterator/select)
-[![Tests](https://img.shields.io/github/workflow/status/iterable-iterator/select/ci:cover?event=push&label=tests)](https://github.com/iterable-iterator/select/actions/workflows/ci:cover.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/workflow/status/iterable-iterator/select/ci?event=push&label=tests)](https://github.com/iterable-iterator/select/actions/workflows/ci.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/iterable-iterator/select.svg)](https://github.com/iterable-iterator/select/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/iterable-iterator/select.svg)](https://github.com/iterable-iterator/select/issues)
 [![Downloads](https://img.shields.io/npm/dm/@iterable-iterator/select.svg)](https://www.npmjs.org/package/@iterable-iterator/select)
