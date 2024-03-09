@@ -1,8 +1,9 @@
 import test from 'ava';
 
 import {iter} from '@iterable-iterator/iter';
-import {StopIteration} from '@iterable-iterator/next';
 import {range} from '@iterable-iterator/range';
+
+import {StopIteration} from './_fixtures.js';
 
 import {first} from '#module';
 
